@@ -1,0 +1,36 @@
+{
+  "name": "chora-personalos",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "tsc -p tsconfig.json --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "synth": "tsx scripts/synth.ts",
+    "eval": "tsx scripts/eval.ts",
+    "demo": "tsx scripts/demo-e2e.ts",
+    "policy-eval": "tsx scripts/policy-eval.ts",
+    "postinstall": "sh scripts/vendor-wasm.sh",
+    "models": "sh scripts/download-models.sh"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "4.3.1",
+    "@litert-lm/core": "0.18.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "playwright": "1.57.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0",
+    "vitest": "^3.2.0"
+  }
+}

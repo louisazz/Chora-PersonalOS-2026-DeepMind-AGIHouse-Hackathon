@@ -1,0 +1,3403 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-25T00:58:28.641Z",
+  "persona": {
+    "name": "Lou",
+    "city": "San Francisco",
+    "timezone": "America/Los_Angeles",
+    "seed": 20261024
+  },
+  "from": "2026-10-25T00:00:00-07:00",
+  "to": "2026-11-07T23:59:00-08:00",
+  "seedObjects": [
+    {
+      "id": "act_study",
+      "type": "activity",
+      "displayName": "study",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "domain": "study"
+    },
+    {
+      "id": "act_fitness",
+      "type": "activity",
+      "displayName": "fitness",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "domain": "fitness"
+    },
+    {
+      "id": "act_travel",
+      "type": "activity",
+      "displayName": "travel",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "domain": "travel"
+    },
+    {
+      "id": "act_health",
+      "type": "activity",
+      "displayName": "health",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "domain": "health"
+    },
+    {
+      "id": "act_work",
+      "type": "activity",
+      "displayName": "work",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "domain": "work"
+    },
+    {
+      "id": "act_games",
+      "type": "activity",
+      "displayName": "games",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "domain": "games"
+    },
+    {
+      "id": "act_finance",
+      "type": "activity",
+      "displayName": "finance",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "domain": "finance"
+    },
+    {
+      "id": "act_music",
+      "type": "activity",
+      "displayName": "music",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "domain": "music"
+    },
+    {
+      "id": "a_commute",
+      "type": "activity",
+      "displayName": "Commute",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "aliases": [
+        "Yellow line",
+        "Montgomery",
+        "BART"
+      ],
+      "attrs": {
+        "line": "Yellow line",
+        "station": "Montgomery",
+        "departure": "18:42",
+        "leaveBy": "18:26"
+      }
+    },
+    {
+      "id": "p_alex",
+      "type": "person",
+      "displayName": "Alex Chen",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "attrs": {
+        "role": "friend"
+      }
+    },
+    {
+      "id": "p_ben",
+      "type": "person",
+      "displayName": "Ben Park",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "attrs": {
+        "role": "friend"
+      }
+    },
+    {
+      "id": "p_marcus",
+      "type": "person",
+      "displayName": "Marcus (Coach)",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "attrs": {
+        "role": "coach"
+      }
+    },
+    {
+      "id": "p_jess",
+      "type": "person",
+      "displayName": "Jess (PM)",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "attrs": {
+        "role": "pm"
+      }
+    },
+    {
+      "id": "p_sam",
+      "type": "person",
+      "displayName": "Sam Rivera",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "attrs": {
+        "role": "designer"
+      }
+    },
+    {
+      "id": "p_mom",
+      "type": "person",
+      "displayName": "Mom",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "attrs": {
+        "role": "family"
+      }
+    },
+    {
+      "id": "p_unknown",
+      "type": "person",
+      "displayName": "+1 (415) 555-0199",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "attrs": {
+        "role": "unknown"
+      }
+    },
+    {
+      "id": "pref_sunset",
+      "type": "preference",
+      "displayName": "Sunset Rollercoaster",
+      "createdAt": "2026-10-25T00:00:00-07:00"
+    },
+    {
+      "id": "pref_menitrust",
+      "type": "preference",
+      "displayName": "Men I Trust",
+      "createdAt": "2026-10-25T00:00:00-07:00"
+    },
+    {
+      "id": "g_half",
+      "type": "goal",
+      "displayName": "Finish the November half marathon",
+      "createdAt": "2026-10-25T00:00:00-07:00"
+    },
+    {
+      "id": "a_boxing",
+      "type": "activity",
+      "displayName": "Boxing",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "attrs": {
+        "cadence": "Tue/Thu 19:00"
+      }
+    },
+    {
+      "id": "c_o1a",
+      "type": "commitment",
+      "displayName": "Sort O-1A application materials",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "attrs": {
+        "status": "3 items left"
+      }
+    },
+    {
+      "id": "c_snacks",
+      "type": "commitment",
+      "displayName": "Bring snacks for the team",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "attrs": {
+        "status": "not bought yet"
+      }
+    },
+    {
+      "id": "c_package",
+      "type": "commitment",
+      "displayName": "Pick up package from office locker",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "attrs": {
+        "status": "locker 21, code 075514"
+      }
+    },
+    {
+      "id": "m_half",
+      "type": "matter",
+      "displayName": "SF Half Marathon",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "shape": "approaching-event",
+      "typicality": 0.9,
+      "worldState": "scheduled",
+      "worldLog": [
+        {
+          "state": "scheduled",
+          "t": "2026-10-25T00:00:00-07:00",
+          "evidence": "seeded"
+        }
+      ],
+      "systemLog": [],
+      "userStance": "preparing",
+      "when": "2026-11-22T07:00:00-08:00",
+      "place": "Golden Gate Park, San Francisco",
+      "aliases": [
+        "half marathon",
+        "half",
+        "race"
+      ],
+      "attrs": {
+        "registered": true
+      }
+    },
+    {
+      "id": "m_req_interviews",
+      "type": "matter",
+      "displayName": "User interviews",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "shape": "deliverable",
+      "typicality": 0.9,
+      "worldState": "scheduled",
+      "worldLog": [
+        {
+          "state": "scheduled",
+          "t": "2026-10-25T00:00:00-07:00",
+          "evidence": "seeded"
+        }
+      ],
+      "systemLog": [],
+      "userStance": "preparing",
+      "when": "2026-11-13T17:00:00-08:00",
+      "aliases": [
+        "user interviews",
+        "interviews"
+      ],
+      "attrs": {
+        "status": "in-progress"
+      }
+    },
+    {
+      "id": "m_req_form",
+      "type": "matter",
+      "displayName": "New product form exploration",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "shape": "deliverable",
+      "typicality": 0.9,
+      "worldState": "scheduled",
+      "worldLog": [
+        {
+          "state": "scheduled",
+          "t": "2026-10-25T00:00:00-07:00",
+          "evidence": "seeded"
+        }
+      ],
+      "systemLog": [],
+      "userStance": "preparing",
+      "when": "2026-11-20T17:00:00-08:00",
+      "aliases": [
+        "product form",
+        "form exploration"
+      ],
+      "attrs": {
+        "status": "in-progress"
+      }
+    },
+    {
+      "id": "m_req_lazy",
+      "type": "matter",
+      "displayName": "Lazy new feature",
+      "createdAt": "2026-10-25T00:00:00-07:00",
+      "shape": "deliverable",
+      "typicality": 0.6,
+      "worldState": "scheduled",
+      "worldLog": [
+        {
+          "state": "scheduled",
+          "t": "2026-10-25T00:00:00-07:00",
+          "evidence": "seeded"
+        }
+      ],
+      "systemLog": [],
+      "userStance": "preparing",
+      "aliases": [
+        "Lazy",
+        "Lazy feature"
+      ],
+      "attrs": {
+        "status": "not-started"
+      }
+    }
+  ],
+  "seedEdges": [
+    {
+      "id": "e_seed_1",
+      "from": "a_commute",
+      "to": "act_work",
+      "type": "part-of",
+      "t": "2026-10-25T00:00:00-07:00",
+      "conf": 1
+    },
+    {
+      "id": "e_seed_2",
+      "from": "pref_sunset",
+      "to": "act_music",
+      "type": "part-of",
+      "t": "2026-10-25T00:00:00-07:00",
+      "conf": 1
+    },
+    {
+      "id": "e_seed_3",
+      "from": "pref_menitrust",
+      "to": "act_music",
+      "type": "part-of",
+      "t": "2026-10-25T00:00:00-07:00",
+      "conf": 1
+    },
+    {
+      "id": "e_seed_4",
+      "from": "g_half",
+      "to": "act_fitness",
+      "type": "part-of",
+      "t": "2026-10-25T00:00:00-07:00",
+      "conf": 1
+    },
+    {
+      "id": "e_seed_5",
+      "from": "a_boxing",
+      "to": "act_fitness",
+      "type": "part-of",
+      "t": "2026-10-25T00:00:00-07:00",
+      "conf": 1
+    },
+    {
+      "id": "e_seed_6",
+      "from": "c_o1a",
+      "to": "act_work",
+      "type": "part-of",
+      "t": "2026-10-25T00:00:00-07:00",
+      "conf": 1
+    },
+    {
+      "id": "e_seed_7",
+      "from": "c_snacks",
+      "to": "act_work",
+      "type": "part-of",
+      "t": "2026-10-25T00:00:00-07:00",
+      "conf": 1
+    },
+    {
+      "id": "e_seed_8",
+      "from": "c_package",
+      "to": "act_work",
+      "type": "part-of",
+      "t": "2026-10-25T00:00:00-07:00",
+      "conf": 1
+    },
+    {
+      "id": "e_seed_9",
+      "from": "m_half",
+      "to": "act_fitness",
+      "type": "part-of",
+      "t": "2026-10-25T00:00:00-07:00",
+      "conf": 1
+    },
+    {
+      "id": "e_seed_10",
+      "from": "m_half",
+      "to": "g_half",
+      "type": "refers-to",
+      "t": "2026-10-25T00:00:00-07:00",
+      "conf": 1
+    },
+    {
+      "id": "e_seed_11",
+      "from": "p_marcus",
+      "to": "m_half",
+      "type": "plays-role",
+      "t": "2026-10-25T00:00:00-07:00",
+      "conf": 1,
+      "role": "coach"
+    },
+    {
+      "id": "e_seed_12",
+      "from": "m_req_interviews",
+      "to": "act_work",
+      "type": "part-of",
+      "t": "2026-10-25T00:00:00-07:00",
+      "conf": 1
+    },
+    {
+      "id": "e_seed_13",
+      "from": "p_jess",
+      "to": "m_req_interviews",
+      "type": "plays-role",
+      "t": "2026-10-25T00:00:00-07:00",
+      "conf": 1,
+      "role": "owner"
+    },
+    {
+      "id": "e_seed_14",
+      "from": "m_req_form",
+      "to": "act_work",
+      "type": "part-of",
+      "t": "2026-10-25T00:00:00-07:00",
+      "conf": 1
+    },
+    {
+      "id": "e_seed_15",
+      "from": "p_sam",
+      "to": "m_req_form",
+      "type": "plays-role",
+      "t": "2026-10-25T00:00:00-07:00",
+      "conf": 1,
+      "role": "collaborator"
+    },
+    {
+      "id": "e_seed_16",
+      "from": "m_req_lazy",
+      "to": "act_work",
+      "type": "part-of",
+      "t": "2026-10-25T00:00:00-07:00",
+      "conf": 1
+    },
+    {
+      "id": "e_seed_17",
+      "from": "p_seed_1",
+      "to": "a_boxing",
+      "type": "evidence-for",
+      "t": "2026-10-25T00:00:00-07:00",
+      "conf": 1,
+      "evidence": "p_seed_1"
+    },
+    {
+      "id": "e_seed_18",
+      "from": "p_seed_2",
+      "to": "a_commute",
+      "type": "evidence-for",
+      "t": "2026-10-25T00:00:00-07:00",
+      "conf": 1,
+      "evidence": "p_seed_2"
+    }
+  ],
+  "seedPropositions": [
+    {
+      "id": "p_seed_1",
+      "text": "Boxing class on Tuesday and Thursday evenings at 19:00",
+      "conf": 0.8,
+      "kind": "habit",
+      "source": {
+        "eventId": "seed",
+        "source": "manual"
+      },
+      "t": "2026-10-25T00:00:00-07:00",
+      "entities": [
+        "Boxing"
+      ],
+      "attributedTo": "a_boxing",
+      "relation": "evidence-for",
+      "attributionConf": 1,
+      "status": "attributed"
+    },
+    {
+      "id": "p_seed_2",
+      "text": "Takes BART home from Montgomery around 18:42 on weekdays",
+      "conf": 0.8,
+      "kind": "habit",
+      "source": {
+        "eventId": "seed",
+        "source": "manual"
+      },
+      "t": "2026-10-25T00:00:00-07:00",
+      "entities": [
+        "BART",
+        "Montgomery"
+      ],
+      "attributedTo": "a_commute",
+      "relation": "evidence-for",
+      "attributionConf": 1,
+      "status": "attributed"
+    }
+  ],
+  "matterTemplates": [
+    {
+      "id": "m_fillmore",
+      "title": "Sunset Rollercoaster at The Fillmore",
+      "shape": "approaching-event",
+      "when": "2026-11-08T20:00:00-08:00",
+      "place": "The Fillmore, San Francisco",
+      "domain": "music",
+      "entities": [
+        "Sunset Rollercoaster",
+        "Fillmore",
+        "The Fillmore"
+      ]
+    },
+    {
+      "id": "m_greek",
+      "title": "Sunset Rollercoaster at The Greek Theatre",
+      "shape": "approaching-event",
+      "when": "2026-11-15T19:30:00-08:00",
+      "place": "The Greek Theatre, Berkeley",
+      "domain": "music",
+      "entities": [
+        "Sunset Rollercoaster",
+        "Greek",
+        "Greek Theatre",
+        "Berkeley"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "ev_d00_n003",
+      "t": "2026-10-25T13:32:00-07:00",
+      "source": "notification",
+      "app": "Airbnb",
+      "text": "Airbnb: new deals near you"
+    },
+    {
+      "id": "ev_d00_n002",
+      "t": "2026-10-25T15:44:00-07:00",
+      "source": "notification",
+      "app": "Airbnb",
+      "text": "Airbnb: new deals near you"
+    },
+    {
+      "id": "ev_d00_n006",
+      "t": "2026-10-25T15:57:00-07:00",
+      "source": "photo",
+      "app": "Photos",
+      "text": "IMG — latte art",
+      "meta": {
+        "geo": "San Francisco"
+      }
+    },
+    {
+      "id": "ev_d00_n001",
+      "t": "2026-10-25T16:28:00-07:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Hiatus Kaiyote — Red Room"
+    },
+    {
+      "id": "ev_d00_n005",
+      "t": "2026-10-25T16:34:00-07:00",
+      "source": "notification",
+      "app": "System",
+      "text": "Bluetooth: Pixel Buds connected"
+    },
+    {
+      "id": "ev_d00_n004",
+      "t": "2026-10-25T18:41:00-07:00",
+      "source": "notification",
+      "app": "Strava",
+      "text": "Strava: 20% off your next order today only"
+    },
+    {
+      "id": "ev_d00_media_k1",
+      "t": "2026-10-25T21:10:00-07:00",
+      "source": "media",
+      "text": "Sunset Rollercoaster — My Jinji",
+      "app": "Spotify"
+    },
+    {
+      "id": "ev_d01_n013",
+      "t": "2026-10-26T09:26:00-07:00",
+      "source": "notification",
+      "app": "Workday",
+      "text": "Build #4412 passed"
+    },
+    {
+      "id": "ev_d01_n009",
+      "t": "2026-10-26T09:46:00-07:00",
+      "source": "notification",
+      "app": "DoorDash",
+      "text": "DoorDash: free delivery this weekend"
+    },
+    {
+      "id": "ev_d01_n012",
+      "t": "2026-10-26T09:48:00-07:00",
+      "source": "notification",
+      "app": "Slack",
+      "text": "Build #4412 passed"
+    },
+    {
+      "id": "ev_d01_pm_interviews_1",
+      "t": "2026-10-26T10:05:00-07:00",
+      "source": "message",
+      "text": "Can we lock the user interviews script by Thursday? I have 5 participants confirmed.",
+      "sender": "Jess (PM)",
+      "app": "Slack"
+    },
+    {
+      "id": "ev_d01_a_invite",
+      "t": "2026-10-26T12:40:00-07:00",
+      "source": "message",
+      "text": "Sunset Rollercoaster is playing the Fillmore on Sat Nov 8 — want to go together? I can grab presale.",
+      "sender": "Alex Chen",
+      "app": "Messages"
+    },
+    {
+      "id": "ev_d01_n007",
+      "t": "2026-10-26T14:42:00-07:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Hiatus Kaiyote — Red Room"
+    },
+    {
+      "id": "ev_d01_n011",
+      "t": "2026-10-26T17:36:00-07:00",
+      "source": "notification",
+      "app": "System",
+      "text": "Wi-Fi connected: Office-5G"
+    },
+    {
+      "id": "ev_d01_n010",
+      "t": "2026-10-26T19:15:00-07:00",
+      "source": "notification",
+      "app": "Ticketmaster",
+      "text": "Ticketmaster: 20% off your next order today only"
+    },
+    {
+      "id": "ev_d01_n008",
+      "t": "2026-10-26T20:00:00-07:00",
+      "source": "notification",
+      "app": "Airbnb",
+      "text": "Airbnb: free delivery this weekend"
+    },
+    {
+      "id": "ev_d02_cal_boxing_tue1",
+      "t": "2026-10-27T07:00:00-07:00",
+      "source": "calendar",
+      "text": "Boxing — 3rd Street Gym",
+      "app": "Calendar",
+      "meta": {
+        "start": "2026-10-27T19:00",
+        "end": "2026-10-27T20:00",
+        "location": "3rd Street Gym, Dogpatch"
+      }
+    },
+    {
+      "id": "ev_d02_n021",
+      "t": "2026-10-27T07:00:00-07:00",
+      "source": "calendar",
+      "app": "Calendar",
+      "text": "Team lunch",
+      "meta": {
+        "start": "2026-10-27T12:00",
+        "end": "2026-10-27T13:00"
+      }
+    },
+    {
+      "id": "ev_d02_media_k2",
+      "t": "2026-10-27T08:15:00-07:00",
+      "source": "media",
+      "text": "Sunset Rollercoaster — Summum Bonum",
+      "app": "Spotify"
+    },
+    {
+      "id": "ev_d02_n016",
+      "t": "2026-10-27T10:22:00-07:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Thee Sacred Souls — Can I Call You Rose?"
+    },
+    {
+      "id": "ev_d02_n018",
+      "t": "2026-10-27T11:19:00-07:00",
+      "source": "notification",
+      "app": "Strava",
+      "text": "Strava: new deals near you"
+    },
+    {
+      "id": "ev_d02_n023",
+      "t": "2026-10-27T11:19:00-07:00",
+      "source": "notification",
+      "app": "Docs",
+      "text": "PTO request approved"
+    },
+    {
+      "id": "ev_d02_n019",
+      "t": "2026-10-27T13:17:00-07:00",
+      "source": "notification",
+      "app": "Lyft",
+      "text": "Lyft: your receipt is ready"
+    },
+    {
+      "id": "ev_d02_n017",
+      "t": "2026-10-27T13:29:00-07:00",
+      "source": "notification",
+      "app": "Uber",
+      "text": "Uber: free delivery this weekend"
+    },
+    {
+      "id": "ev_d02_n014",
+      "t": "2026-10-27T15:00:00-07:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Thee Sacred Souls — Can I Call You Rose?"
+    },
+    {
+      "id": "ev_d02_coach_wraps",
+      "t": "2026-10-27T15:10:00-07:00",
+      "source": "message",
+      "text": "Tonight we do pad work — bring your own hand wraps and gloves, the loaners are out.",
+      "sender": "Marcus (Coach)",
+      "app": "WhatsApp"
+    },
+    {
+      "id": "ev_d02_n020",
+      "t": "2026-10-27T16:08:00-07:00",
+      "source": "notification",
+      "app": "System",
+      "text": "System update available"
+    },
+    {
+      "id": "ev_d02_n022",
+      "t": "2026-10-27T16:51:00-07:00",
+      "source": "photo",
+      "app": "Photos",
+      "text": "IMG — tacos",
+      "meta": {
+        "geo": "San Francisco"
+      }
+    },
+    {
+      "id": "ev_d02_n015",
+      "t": "2026-10-27T18:04:00-07:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Hiatus Kaiyote — Red Room"
+    },
+    {
+      "id": "ev_d03_n028",
+      "t": "2026-10-28T07:00:00-07:00",
+      "source": "calendar",
+      "app": "Calendar",
+      "text": "Team lunch",
+      "meta": {
+        "start": "2026-10-28T12:00",
+        "end": "2026-10-28T13:00"
+      }
+    },
+    {
+      "id": "ev_d03_n030",
+      "t": "2026-10-28T13:34:00-07:00",
+      "source": "notification",
+      "app": "Workday",
+      "text": "Jess reacted 👍 to your message"
+    },
+    {
+      "id": "ev_d03_n027",
+      "t": "2026-10-28T13:47:00-07:00",
+      "source": "notification",
+      "app": "Nike",
+      "text": "Nike: new deals near you"
+    },
+    {
+      "id": "ev_d03_design_form_1",
+      "t": "2026-10-28T15:30:00-07:00",
+      "source": "message",
+      "text": "Posted three directions for the new product form exploration in Figma — curious which one you’d push.",
+      "sender": "Sam Rivera",
+      "app": "Slack"
+    },
+    {
+      "id": "ev_d03_bart_delay",
+      "t": "2026-10-28T18:20:00-07:00",
+      "source": "world",
+      "text": "BART: 10-min delays on the Yellow line from Montgomery due to an earlier equipment problem.",
+      "app": "BART"
+    },
+    {
+      "id": "ev_d03_n029",
+      "t": "2026-10-28T18:56:00-07:00",
+      "source": "photo",
+      "app": "Photos",
+      "text": "IMG — bookstore",
+      "meta": {
+        "geo": "San Francisco"
+      }
+    },
+    {
+      "id": "ev_d03_a_saturday",
+      "t": "2026-10-28T19:10:00-07:00",
+      "source": "message",
+      "text": "Are we still on for Saturday?",
+      "sender": "Alex Chen",
+      "app": "Messages"
+    },
+    {
+      "id": "ev_d03_n024",
+      "t": "2026-10-28T19:26:00-07:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Hiatus Kaiyote — Red Room"
+    },
+    {
+      "id": "ev_d03_n026",
+      "t": "2026-10-28T20:00:00-07:00",
+      "source": "notification",
+      "app": "Nike",
+      "text": "Nike: 20% off your next order today only"
+    },
+    {
+      "id": "ev_d03_n025",
+      "t": "2026-10-28T21:14:00-07:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Thee Sacred Souls — Can I Call You Rose?"
+    },
+    {
+      "id": "ev_d04_n035",
+      "t": "2026-10-29T07:00:00-07:00",
+      "source": "calendar",
+      "app": "Calendar",
+      "text": "1:1 with Jess",
+      "meta": {
+        "start": "2026-10-29T16:00",
+        "end": "2026-10-29T17:00"
+      }
+    },
+    {
+      "id": "ev_d04_world_fillmore_onsale",
+      "t": "2026-10-29T11:00:00-07:00",
+      "source": "world",
+      "text": "Sunset Rollercoaster — The Fillmore, San Francisco, Sat Nov 8. Tickets on sale Fri Oct 30, 10:00 AM.",
+      "app": "Shows",
+      "meta": {
+        "kind": "onsale",
+        "onsaleAt": "2026-10-30T10:00"
+      }
+    },
+    {
+      "id": "ev_d04_n031",
+      "t": "2026-10-29T12:45:00-07:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Thee Sacred Souls — Can I Call You Rose?"
+    },
+    {
+      "id": "ev_d04_n036",
+      "t": "2026-10-29T12:46:00-07:00",
+      "source": "photo",
+      "app": "Photos",
+      "text": "IMG — tacos",
+      "meta": {
+        "geo": "San Francisco"
+      }
+    },
+    {
+      "id": "ev_d04_n037",
+      "t": "2026-10-29T14:00:00-07:00",
+      "source": "notification",
+      "app": "Docs",
+      "text": "New comment on your doc"
+    },
+    {
+      "id": "ev_d04_package_notif",
+      "t": "2026-10-29T14:20:00-07:00",
+      "source": "notification",
+      "text": "Your package is in locker 21. Access code 075514.",
+      "app": "Luxer One"
+    },
+    {
+      "id": "ev_d04_n032",
+      "t": "2026-10-29T15:36:00-07:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Men I Trust — Show Me How"
+    },
+    {
+      "id": "ev_d04_pm_interviews_deadline",
+      "t": "2026-10-29T16:40:00-07:00",
+      "source": "message",
+      "text": "Interviews script deadline pushed to Monday, no rush over the weekend.",
+      "sender": "Jess (PM)",
+      "app": "Slack"
+    },
+    {
+      "id": "ev_d04_n033",
+      "t": "2026-10-29T18:58:00-07:00",
+      "source": "notification",
+      "app": "Ticketmaster",
+      "text": "Ticketmaster: 20% off your next order today only"
+    },
+    {
+      "id": "ev_d04_n034",
+      "t": "2026-10-29T19:09:00-07:00",
+      "source": "notification",
+      "app": "System",
+      "text": "Bluetooth: Pixel Buds connected"
+    },
+    {
+      "id": "ev_d05_n041",
+      "t": "2026-10-30T07:00:00-07:00",
+      "source": "calendar",
+      "app": "Calendar",
+      "text": "1:1 with Jess",
+      "meta": {
+        "start": "2026-10-30T14:00",
+        "end": "2026-10-30T15:00"
+      }
+    },
+    {
+      "id": "ev_d05_package_notif_dup",
+      "t": "2026-10-30T09:00:00-07:00",
+      "source": "notification",
+      "text": "Reminder: your package is in locker 21. Access code 075514.",
+      "app": "Luxer One"
+    },
+    {
+      "id": "ev_d05_n040",
+      "t": "2026-10-30T09:15:00-07:00",
+      "source": "notification",
+      "app": "Lyft",
+      "text": "Lyft: 20% off your next order today only"
+    },
+    {
+      "id": "ev_d05_n039",
+      "t": "2026-10-30T11:19:00-07:00",
+      "source": "notification",
+      "app": "Lyft",
+      "text": "Lyft: 20% off your next order today only"
+    },
+    {
+      "id": "ev_d05_n038",
+      "t": "2026-10-30T11:22:00-07:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Bonobo — Kerala"
+    },
+    {
+      "id": "ev_d05_n044",
+      "t": "2026-10-30T13:11:00-07:00",
+      "source": "notification",
+      "app": "Slack",
+      "text": "PTO request approved"
+    },
+    {
+      "id": "ev_d05_b_tickets",
+      "t": "2026-10-30T13:20:00-07:00",
+      "source": "message",
+      "text": "Got the tickets!! Send me your ID photo before the 12th so I can transfer yours.",
+      "sender": "Ben Park",
+      "app": "Messages"
+    },
+    {
+      "id": "ev_d05_n042",
+      "t": "2026-10-30T13:41:00-07:00",
+      "source": "message",
+      "sender": "Mom",
+      "app": "Messages",
+      "text": "Did you eat?"
+    },
+    {
+      "id": "ev_d05_n043",
+      "t": "2026-10-30T15:55:00-07:00",
+      "source": "notification",
+      "app": "Slack",
+      "text": "Build #4412 passed"
+    },
+    {
+      "id": "ev_d06_n045",
+      "t": "2026-10-31T09:38:00-07:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Men I Trust — Show Me How"
+    },
+    {
+      "id": "ev_d06_workout_run_sat1",
+      "t": "2026-10-31T09:40:00-07:00",
+      "source": "workout",
+      "text": "Run 14.2 km · 1:21:05 · avg 5:42/km",
+      "app": "Health",
+      "meta": {
+        "km": 14.2,
+        "minutes": 81,
+        "pace": 5.7
+      }
+    },
+    {
+      "id": "ev_d06_n048",
+      "t": "2026-10-31T10:02:00-07:00",
+      "source": "notification",
+      "app": "Uber",
+      "text": "Uber: 20% off your next order today only"
+    },
+    {
+      "id": "ev_d06_a_presale",
+      "t": "2026-10-31T10:50:00-07:00",
+      "source": "message",
+      "text": "Presale went fine, I got 2 for the Fillmore. You owe me a beer.",
+      "sender": "Alex Chen",
+      "app": "Messages"
+    },
+    {
+      "id": "ev_d06_cal_sunset_dup",
+      "t": "2026-10-31T11:00:00-07:00",
+      "source": "calendar",
+      "text": "Sunset Rollercoaster @ The Fillmore",
+      "app": "Calendar",
+      "meta": {
+        "start": "2026-11-08T20:00",
+        "end": "2026-11-08T23:00",
+        "location": "The Fillmore, San Francisco"
+      }
+    },
+    {
+      "id": "ev_d06_jess_doc",
+      "t": "2026-10-31T14:25:00-07:00",
+      "source": "message",
+      "text": "Can you send me the doc when you’re done?",
+      "sender": "Jess (PM)",
+      "app": "Slack"
+    },
+    {
+      "id": "ev_d06_n049",
+      "t": "2026-10-31T17:02:00-07:00",
+      "source": "notification",
+      "app": "Uber",
+      "text": "Uber: 20% off your next order today only"
+    },
+    {
+      "id": "ev_d06_n046",
+      "t": "2026-10-31T17:16:00-07:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Hiatus Kaiyote — Red Room"
+    },
+    {
+      "id": "ev_d06_n050",
+      "t": "2026-10-31T18:53:00-07:00",
+      "source": "message",
+      "sender": "Mom",
+      "app": "Messages",
+      "text": "Did you eat?"
+    },
+    {
+      "id": "ev_d06_media_k3",
+      "t": "2026-10-31T19:30:00-07:00",
+      "source": "media",
+      "text": "Sunset Rollercoaster — Candlelight",
+      "app": "Spotify"
+    },
+    {
+      "id": "ev_d06_n047",
+      "t": "2026-10-31T20:32:00-07:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Bonobo — Kerala"
+    },
+    {
+      "id": "ev_d07_package_code_change",
+      "t": "2026-11-01T08:30:00-08:00",
+      "source": "notification",
+      "text": "Your locker code has changed. Locker 21, new access code 118342.",
+      "app": "Luxer One"
+    },
+    {
+      "id": "ev_d07_n052",
+      "t": "2026-11-01T08:35:00-08:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Thee Sacred Souls — Can I Call You Rose?"
+    },
+    {
+      "id": "ev_d07_n051",
+      "t": "2026-11-01T09:36:00-08:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Men I Trust — Show Me How"
+    },
+    {
+      "id": "ev_d07_world_greek_added",
+      "t": "2026-11-01T11:05:00-08:00",
+      "source": "world",
+      "text": "Sunset Rollercoaster — The Greek Theatre, Berkeley, Sun Nov 15. Doors 6:30 PM.",
+      "app": "Shows"
+    },
+    {
+      "id": "ev_d07_n054",
+      "t": "2026-11-01T11:15:00-08:00",
+      "source": "notification",
+      "app": "Airbnb",
+      "text": "Airbnb: new deals near you"
+    },
+    {
+      "id": "ev_d07_n057",
+      "t": "2026-11-01T11:39:00-08:00",
+      "source": "message",
+      "sender": "Mom",
+      "app": "Messages",
+      "text": "Happy Sunday ☀️"
+    },
+    {
+      "id": "ev_d07_n056",
+      "t": "2026-11-01T12:51:00-08:00",
+      "source": "photo",
+      "app": "Photos",
+      "text": "IMG — bike by the Embarcadero",
+      "meta": {
+        "geo": "San Francisco"
+      }
+    },
+    {
+      "id": "ev_d07_n055",
+      "t": "2026-11-01T12:52:00-08:00",
+      "source": "notification",
+      "app": "Nike",
+      "text": "Nike: free delivery this weekend"
+    },
+    {
+      "id": "ev_d07_coach_pacing",
+      "t": "2026-11-01T20:15:00-08:00",
+      "source": "message",
+      "text": "Here’s your race pacing plan for the half: 5:35/km first 10k, then see how you feel.",
+      "sender": "Marcus (Coach)",
+      "app": "WhatsApp"
+    },
+    {
+      "id": "ev_d07_n053",
+      "t": "2026-11-01T20:33:00-08:00",
+      "source": "notification",
+      "app": "Lyft",
+      "text": "Lyft: your receipt is ready"
+    },
+    {
+      "id": "ev_d08_n063",
+      "t": "2026-11-02T07:00:00-08:00",
+      "source": "calendar",
+      "app": "Calendar",
+      "text": "Design review",
+      "meta": {
+        "start": "2026-11-02T10:00",
+        "end": "2026-11-02T11:00"
+      }
+    },
+    {
+      "id": "ev_d08_n061",
+      "t": "2026-11-02T09:12:00-08:00",
+      "source": "notification",
+      "app": "Strava",
+      "text": "Strava: new deals near you"
+    },
+    {
+      "id": "ev_d08_n060",
+      "t": "2026-11-02T09:25:00-08:00",
+      "source": "notification",
+      "app": "Strava",
+      "text": "Strava: free delivery this weekend"
+    },
+    {
+      "id": "ev_d08_n059",
+      "t": "2026-11-02T09:40:00-08:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Hiatus Kaiyote — Red Room"
+    },
+    {
+      "id": "ev_d08_pm_interviews_2",
+      "t": "2026-11-02T09:45:00-08:00",
+      "source": "message",
+      "text": "Two interviews done, notes in the doc. Third one moved to Friday.",
+      "sender": "Jess (PM)",
+      "app": "Slack"
+    },
+    {
+      "id": "ev_d08_n062",
+      "t": "2026-11-02T12:10:00-08:00",
+      "source": "notification",
+      "app": "DoorDash",
+      "text": "DoorDash: 20% off your next order today only"
+    },
+    {
+      "id": "ev_d08_n064",
+      "t": "2026-11-02T13:49:00-08:00",
+      "source": "photo",
+      "app": "Photos",
+      "text": "IMG — bookstore",
+      "meta": {
+        "geo": "San Francisco"
+      }
+    },
+    {
+      "id": "ev_d08_n065",
+      "t": "2026-11-02T14:24:00-08:00",
+      "source": "notification",
+      "app": "Slack",
+      "text": "Jess reacted 👍 to your message"
+    },
+    {
+      "id": "ev_d08_n058",
+      "t": "2026-11-02T14:59:00-08:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Tame Impala — Let It Happen"
+    },
+    {
+      "id": "ev_d08_b_meet",
+      "t": "2026-11-02T18:05:00-08:00",
+      "source": "message",
+      "text": "What time should we meet in Berkeley? Thinking 6 at Downtown Berkeley BART then walk up.",
+      "sender": "Ben Park",
+      "app": "Messages"
+    },
+    {
+      "id": "ev_d08_mom_training",
+      "t": "2026-11-02T19:40:00-08:00",
+      "source": "message",
+      "text": "How is the marathon training going? Don’t overdo it.",
+      "sender": "Mom",
+      "app": "Messages"
+    },
+    {
+      "id": "ev_d09_n072",
+      "t": "2026-11-03T07:00:00-08:00",
+      "source": "calendar",
+      "app": "Calendar",
+      "text": "Therapy",
+      "meta": {
+        "start": "2026-11-03T16:00",
+        "end": "2026-11-03T17:00"
+      }
+    },
+    {
+      "id": "ev_d09_n068",
+      "t": "2026-11-03T09:03:00-08:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Durand Jones — Witchoo"
+    },
+    {
+      "id": "ev_d09_n066",
+      "t": "2026-11-03T09:22:00-08:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Hiatus Kaiyote — Red Room"
+    },
+    {
+      "id": "ev_d09_a_reschedule",
+      "t": "2026-11-03T10:25:00-08:00",
+      "source": "message",
+      "text": "Heads up — the Fillmore show got moved to Sunday the 9th, same time. Still good?",
+      "sender": "Alex Chen",
+      "app": "Messages"
+    },
+    {
+      "id": "ev_d09_coach_tue_time",
+      "t": "2026-11-03T12:15:00-08:00",
+      "source": "message",
+      "text": "Tuesday class is 7:30 not 7 this week, room change.",
+      "sender": "Marcus (Coach)",
+      "app": "WhatsApp"
+    },
+    {
+      "id": "ev_d09_b_run",
+      "t": "2026-11-03T12:40:00-08:00",
+      "source": "message",
+      "text": "Wanna go for a run Sunday morning? Kezar at 8?",
+      "sender": "Ben Park",
+      "app": "Messages"
+    },
+    {
+      "id": "ev_d09_n071",
+      "t": "2026-11-03T13:21:00-08:00",
+      "source": "notification",
+      "app": "System",
+      "text": "Bluetooth: Pixel Buds connected"
+    },
+    {
+      "id": "ev_d09_n070",
+      "t": "2026-11-03T15:35:00-08:00",
+      "source": "notification",
+      "app": "Strava",
+      "text": "Strava: your receipt is ready"
+    },
+    {
+      "id": "ev_d09_lazy_mention",
+      "t": "2026-11-03T16:00:00-08:00",
+      "source": "message",
+      "text": "Not urgent: when you have a sec, scope the Lazy feature so we can size it.",
+      "sender": "Jess (PM)",
+      "app": "Slack"
+    },
+    {
+      "id": "ev_d09_n074",
+      "t": "2026-11-03T16:09:00-08:00",
+      "source": "notification",
+      "app": "Workday",
+      "text": "PTO request approved"
+    },
+    {
+      "id": "ev_d09_n067",
+      "t": "2026-11-03T19:51:00-08:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Men I Trust — Show Me How"
+    },
+    {
+      "id": "ev_d09_n069",
+      "t": "2026-11-03T19:54:00-08:00",
+      "source": "notification",
+      "app": "Strava",
+      "text": "Strava: your receipt is ready"
+    },
+    {
+      "id": "ev_d09_n073",
+      "t": "2026-11-03T19:54:00-08:00",
+      "source": "photo",
+      "app": "Photos",
+      "text": "IMG — tacos",
+      "meta": {
+        "geo": "San Francisco"
+      }
+    },
+    {
+      "id": "ev_d09_unknown_runclub",
+      "t": "2026-11-03T21:05:00-08:00",
+      "source": "message",
+      "text": "run club thursday 6:30am at kezar, you in?",
+      "sender": "+1 (415) 555-0199",
+      "app": "Messages"
+    },
+    {
+      "id": "ev_d10_n079",
+      "t": "2026-11-04T07:00:00-08:00",
+      "source": "calendar",
+      "app": "Calendar",
+      "text": "Haircut",
+      "meta": {
+        "start": "2026-11-04T12:00",
+        "end": "2026-11-04T13:00"
+      }
+    },
+    {
+      "id": "ev_d10_world_bart_schedule",
+      "t": "2026-11-04T09:00:00-08:00",
+      "source": "world",
+      "text": "BART schedule change: evening Yellow line trains from Montgomery now every 12 minutes; the 6:42 PM departs 6:48 PM.",
+      "app": "BART"
+    },
+    {
+      "id": "ev_d10_n078",
+      "t": "2026-11-04T10:01:00-08:00",
+      "source": "notification",
+      "app": "Nike",
+      "text": "Nike: new deals near you"
+    },
+    {
+      "id": "ev_d10_n077",
+      "t": "2026-11-04T11:04:00-08:00",
+      "source": "notification",
+      "app": "Uber",
+      "text": "Uber: new deals near you"
+    },
+    {
+      "id": "ev_d10_n076",
+      "t": "2026-11-04T11:11:00-08:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Tame Impala — Let It Happen"
+    },
+    {
+      "id": "ev_d10_design_form_2",
+      "t": "2026-11-04T11:15:00-08:00",
+      "source": "message",
+      "text": "Went with direction B for the form, prototype link in the thread.",
+      "sender": "Sam Rivera",
+      "app": "Slack"
+    },
+    {
+      "id": "ev_d10_n080",
+      "t": "2026-11-04T16:08:00-08:00",
+      "source": "notification",
+      "app": "Workday",
+      "text": "Jess reacted 👍 to your message"
+    },
+    {
+      "id": "ev_d10_coach_raceday",
+      "t": "2026-11-04T17:30:00-08:00",
+      "source": "message",
+      "text": "Race day logistics coming next week — bib pickup is Saturday before.",
+      "sender": "Marcus (Coach)",
+      "app": "WhatsApp"
+    },
+    {
+      "id": "ev_d10_n075",
+      "t": "2026-11-04T20:35:00-08:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Durand Jones — Witchoo"
+    },
+    {
+      "id": "ev_d10_a_setlist",
+      "t": "2026-11-04T22:30:00-08:00",
+      "source": "message",
+      "text": "Did you see the setlist from their LA show? 😍",
+      "sender": "Alex Chen",
+      "app": "Messages"
+    },
+    {
+      "id": "ev_d11_cal_boxing_thu2",
+      "t": "2026-11-05T07:00:00-08:00",
+      "source": "calendar",
+      "text": "Boxing — 3rd Street Gym",
+      "app": "Calendar",
+      "meta": {
+        "start": "2026-11-05T19:00",
+        "end": "2026-11-05T20:00",
+        "location": "3rd Street Gym, Dogpatch"
+      }
+    },
+    {
+      "id": "ev_d11_cal_dentist_moved",
+      "t": "2026-11-05T07:00:00-08:00",
+      "source": "calendar",
+      "text": "Dentist (moved)",
+      "app": "Calendar",
+      "meta": {
+        "start": "2026-11-10T15:00",
+        "end": "2026-11-10T16:00"
+      }
+    },
+    {
+      "id": "ev_d11_n087",
+      "t": "2026-11-05T07:00:00-08:00",
+      "source": "calendar",
+      "app": "Calendar",
+      "text": "All-hands",
+      "meta": {
+        "start": "2026-11-05T09:00",
+        "end": "2026-11-05T10:00"
+      }
+    },
+    {
+      "id": "ev_d11_n084",
+      "t": "2026-11-05T09:28:00-08:00",
+      "source": "notification",
+      "app": "Lyft",
+      "text": "Lyft: free delivery this weekend"
+    },
+    {
+      "id": "ev_d11_n089",
+      "t": "2026-11-05T09:51:00-08:00",
+      "source": "notification",
+      "app": "GitHub",
+      "text": "Build #4412 passed"
+    },
+    {
+      "id": "ev_d11_n086",
+      "t": "2026-11-05T13:35:00-08:00",
+      "source": "notification",
+      "app": "System",
+      "text": "Battery at 20%"
+    },
+    {
+      "id": "ev_d11_coach_cancel",
+      "t": "2026-11-05T14:02:00-08:00",
+      "source": "message",
+      "text": "No class tonight, gym is closed for a floor repair. Back Tuesday.",
+      "sender": "Marcus (Coach)",
+      "app": "WhatsApp"
+    },
+    {
+      "id": "ev_d11_n082",
+      "t": "2026-11-05T14:19:00-08:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Bonobo — Kerala"
+    },
+    {
+      "id": "ev_d11_n083",
+      "t": "2026-11-05T16:16:00-08:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Men I Trust — Show Me How"
+    },
+    {
+      "id": "ev_d11_unknown_extra",
+      "t": "2026-11-05T16:45:00-08:00",
+      "source": "message",
+      "text": "hey it’s Dana from the run club — are you going to Sunset Rollercoaster? which night?",
+      "sender": "+1 (415) 555-0199",
+      "app": "Messages"
+    },
+    {
+      "id": "ev_d11_n088",
+      "t": "2026-11-05T17:03:00-08:00",
+      "source": "message",
+      "sender": "Mom",
+      "app": "Messages",
+      "text": "Did you eat?"
+    },
+    {
+      "id": "ev_d11_n081",
+      "t": "2026-11-05T17:36:00-08:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Hiatus Kaiyote — Red Room"
+    },
+    {
+      "id": "ev_d11_n085",
+      "t": "2026-11-05T19:43:00-08:00",
+      "source": "notification",
+      "app": "Instacart",
+      "text": "Instacart: free delivery this weekend"
+    },
+    {
+      "id": "ev_d12_n092",
+      "t": "2026-11-06T07:00:00-08:00",
+      "source": "calendar",
+      "app": "Calendar",
+      "text": "Therapy",
+      "meta": {
+        "start": "2026-11-06T11:00",
+        "end": "2026-11-06T12:00"
+      }
+    },
+    {
+      "id": "ev_d12_n094",
+      "t": "2026-11-06T09:26:00-08:00",
+      "source": "notification",
+      "app": "GitHub",
+      "text": "Reminder: timesheet due"
+    },
+    {
+      "id": "ev_d12_coach_pacing_v2",
+      "t": "2026-11-06T09:30:00-08:00",
+      "source": "message",
+      "text": "Updated pacing plan attached — slightly faster first 5k since your long run looked easy.",
+      "sender": "Marcus (Coach)",
+      "app": "WhatsApp"
+    },
+    {
+      "id": "ev_d12_sam_feedback",
+      "t": "2026-11-06T10:10:00-08:00",
+      "source": "message",
+      "text": "Any feedback on the prototype?",
+      "sender": "Sam Rivera",
+      "app": "Slack"
+    },
+    {
+      "id": "ev_d12_n090",
+      "t": "2026-11-06T13:12:00-08:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Thee Sacred Souls — Can I Call You Rose?"
+    },
+    {
+      "id": "ev_d12_n093",
+      "t": "2026-11-06T15:49:00-08:00",
+      "source": "photo",
+      "app": "Photos",
+      "text": "IMG — bike by the Embarcadero",
+      "meta": {
+        "geo": "San Francisco"
+      }
+    },
+    {
+      "id": "ev_d12_n091",
+      "t": "2026-11-06T17:52:00-08:00",
+      "source": "notification",
+      "app": "Lyft",
+      "text": "Lyft: 20% off your next order today only"
+    },
+    {
+      "id": "ev_d12_b_late",
+      "t": "2026-11-06T18:20:00-08:00",
+      "source": "message",
+      "text": "running a bit late, start without me",
+      "sender": "Ben Park",
+      "app": "Messages"
+    },
+    {
+      "id": "ev_d13_n097",
+      "t": "2026-11-07T09:26:00-08:00",
+      "source": "notification",
+      "app": "Lyft",
+      "text": "Lyft: your receipt is ready"
+    },
+    {
+      "id": "ev_d13_workout_run_sat2",
+      "t": "2026-11-07T09:50:00-08:00",
+      "source": "workout",
+      "text": "Run 16.1 km · 1:30:12 · avg 5:36/km",
+      "app": "Health",
+      "meta": {
+        "km": 16.1,
+        "minutes": 90,
+        "pace": 5.6
+      }
+    },
+    {
+      "id": "ev_d13_coach_greatwork",
+      "t": "2026-11-07T11:00:00-08:00",
+      "source": "message",
+      "text": "Great work this week 👊",
+      "sender": "Marcus (Coach)",
+      "app": "WhatsApp"
+    },
+    {
+      "id": "ev_d13_n095",
+      "t": "2026-11-07T14:15:00-08:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Bonobo — Kerala"
+    },
+    {
+      "id": "ev_d13_n096",
+      "t": "2026-11-07T18:03:00-08:00",
+      "source": "media",
+      "app": "Spotify",
+      "text": "Bonobo — Kerala"
+    }
+  ],
+  "annotations": [
+    {
+      "eventId": "ev_d00_n003",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d00_n002",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d00_n006",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d00_n001",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Hiatus Kaiyote"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Hiatus Kaiyote",
+          "conf": 0.7,
+          "entities": [
+            "Hiatus Kaiyote"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d00_n005",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d00_n004",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d00_media_k1",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Listens to Sunset Rollercoaster",
+          "conf": 0.7,
+          "entities": [
+            "Sunset Rollercoaster"
+          ],
+          "kind": "habit"
+        }
+      ],
+      "objectId": "pref_sunset"
+    },
+    {
+      "eventId": "ev_d01_n013",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d01_n009",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d01_n012",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d01_pm_interviews_1",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Jess wants the user interviews script locked by Thursday; 5 participants confirmed",
+          "conf": 0.9,
+          "entities": [
+            "Jess (PM)",
+            "user interviews"
+          ],
+          "kind": "request"
+        }
+      ],
+      "objectId": "m_req_interviews",
+      "dateRef": "2026-10-29T17:00:00-07:00"
+    },
+    {
+      "eventId": "ev_d01_a_invite",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Alex Chen invites to Sunset Rollercoaster at The Fillmore on Sat Nov 8",
+          "conf": 0.9,
+          "entities": [
+            "Alex Chen",
+            "Sunset Rollercoaster",
+            "The Fillmore"
+          ],
+          "kind": "request"
+        }
+      ],
+      "objectId": "m_fillmore",
+      "dateRef": "2026-11-08T20:00:00-08:00"
+    },
+    {
+      "eventId": "ev_d01_n007",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Hiatus Kaiyote"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Hiatus Kaiyote",
+          "conf": 0.7,
+          "entities": [
+            "Hiatus Kaiyote"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d01_n011",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d01_n010",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d01_n008",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d02_cal_boxing_tue1",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Boxing class Tue Oct 27 19:00 at 3rd Street Gym",
+          "conf": 0.9,
+          "entities": [
+            "Boxing",
+            "3rd Street Gym"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "a_boxing",
+      "dateRef": "2026-10-27T19:00:00-07:00"
+    },
+    {
+      "eventId": "ev_d02_n021",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Team lunch"
+      ],
+      "propositions": [
+        {
+          "text": "Calendar: Team lunch",
+          "conf": 0.8,
+          "entities": [
+            "Team lunch"
+          ],
+          "kind": "fact"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d02_media_k2",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Listens to Sunset Rollercoaster",
+          "conf": 0.7,
+          "entities": [
+            "Sunset Rollercoaster"
+          ],
+          "kind": "habit"
+        }
+      ],
+      "objectId": "pref_sunset"
+    },
+    {
+      "eventId": "ev_d02_n016",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Thee Sacred Souls"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Thee Sacred Souls",
+          "conf": 0.7,
+          "entities": [
+            "Thee Sacred Souls"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d02_n018",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d02_n023",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d02_n019",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d02_n017",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d02_n014",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Thee Sacred Souls"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Thee Sacred Souls",
+          "conf": 0.7,
+          "entities": [
+            "Thee Sacred Souls"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d02_coach_wraps",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Coach asks to bring hand wraps and gloves to tonight’s Boxing class",
+          "conf": 0.9,
+          "entities": [
+            "Marcus (Coach)",
+            "Boxing",
+            "hand wraps",
+            "gloves"
+          ],
+          "kind": "request"
+        }
+      ],
+      "objectId": "a_boxing",
+      "dateRef": "2026-10-27T19:00:00-07:00"
+    },
+    {
+      "eventId": "ev_d02_n020",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d02_n022",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d02_n015",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Hiatus Kaiyote"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Hiatus Kaiyote",
+          "conf": 0.7,
+          "entities": [
+            "Hiatus Kaiyote"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d03_n028",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Team lunch"
+      ],
+      "propositions": [
+        {
+          "text": "Calendar: Team lunch",
+          "conf": 0.8,
+          "entities": [
+            "Team lunch"
+          ],
+          "kind": "fact"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d03_n030",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d03_n027",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d03_design_form_1",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Sam posted three directions for the product form exploration in Figma",
+          "conf": 0.9,
+          "entities": [
+            "Sam Rivera",
+            "product form",
+            "Figma"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "m_req_form"
+    },
+    {
+      "eventId": "ev_d03_bart_delay",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "BART Yellow line delayed 10 minutes from Montgomery",
+          "conf": 0.9,
+          "entities": [
+            "BART",
+            "Montgomery"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "a_commute"
+    },
+    {
+      "eventId": "ev_d03_n029",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d03_a_saturday",
+      "cls": "ambiguous",
+      "propositions": [
+        {
+          "text": "Alex Chen asks whether Saturday is still on",
+          "conf": 0.6,
+          "entities": [
+            "Alex Chen",
+            "Saturday"
+          ],
+          "kind": "request"
+        }
+      ],
+      "objectId": "m_fillmore"
+    },
+    {
+      "eventId": "ev_d03_n024",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Hiatus Kaiyote"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Hiatus Kaiyote",
+          "conf": 0.7,
+          "entities": [
+            "Hiatus Kaiyote"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d03_n026",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d03_n025",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Thee Sacred Souls"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Thee Sacred Souls",
+          "conf": 0.7,
+          "entities": [
+            "Thee Sacred Souls"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d04_n035",
+      "cls": "noise",
+      "acceptableNamed": [
+        "1:1 with Jess"
+      ],
+      "propositions": [
+        {
+          "text": "Calendar: 1:1 with Jess",
+          "conf": 0.8,
+          "entities": [
+            "1:1 with Jess"
+          ],
+          "kind": "fact"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d04_world_fillmore_onsale",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Tickets for Sunset Rollercoaster at The Fillmore go on sale Fri Oct 30 10:00",
+          "conf": 0.95,
+          "entities": [
+            "Sunset Rollercoaster",
+            "The Fillmore"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "m_fillmore",
+      "dateRef": "2026-10-30T10:00:00-07:00"
+    },
+    {
+      "eventId": "ev_d04_n031",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Thee Sacred Souls"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Thee Sacred Souls",
+          "conf": 0.7,
+          "entities": [
+            "Thee Sacred Souls"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d04_n036",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d04_n037",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d04_package_notif",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Package waiting in office locker 21, code 075514",
+          "conf": 0.95,
+          "entities": [
+            "locker 21"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "c_package"
+    },
+    {
+      "eventId": "ev_d04_n032",
+      "cls": "signal",
+      "objectId": "pref_menitrust",
+      "propositions": [
+        {
+          "text": "Listens to Men I Trust",
+          "conf": 0.7,
+          "entities": [
+            "Men I Trust"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d04_pm_interviews_deadline",
+      "cls": "contradiction",
+      "propositions": [
+        {
+          "text": "User interviews script deadline moved to Mon Nov 2",
+          "conf": 0.9,
+          "entities": [
+            "Jess (PM)",
+            "user interviews"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "m_req_interviews",
+      "dateRef": "2026-11-02T17:00:00-08:00",
+      "worldState": "rescheduled"
+    },
+    {
+      "eventId": "ev_d04_n033",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d04_n034",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d05_n041",
+      "cls": "noise",
+      "acceptableNamed": [
+        "1:1 with Jess"
+      ],
+      "propositions": [
+        {
+          "text": "Calendar: 1:1 with Jess",
+          "conf": 0.8,
+          "entities": [
+            "1:1 with Jess"
+          ],
+          "kind": "fact"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d05_package_notif_dup",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Package waiting in office locker 21, code 075514",
+          "conf": 0.95,
+          "entities": [
+            "locker 21"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "c_package"
+    },
+    {
+      "eventId": "ev_d05_n040",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d05_n039",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d05_n038",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Bonobo"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Bonobo",
+          "conf": 0.7,
+          "entities": [
+            "Bonobo"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d05_n044",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d05_b_tickets",
+      "cls": "ambiguous",
+      "propositions": [
+        {
+          "text": "Ben Park bought tickets and needs an ID photo before Nov 12",
+          "conf": 0.85,
+          "entities": [
+            "Ben Park",
+            "tickets",
+            "ID"
+          ],
+          "kind": "request"
+        }
+      ],
+      "objectId": "m_greek",
+      "dateRef": "2026-11-12T23:59:00-08:00"
+    },
+    {
+      "eventId": "ev_d05_n042",
+      "cls": "noise",
+      "propositions": [
+        {
+          "text": "Mom: Did you eat?",
+          "conf": 0.7,
+          "entities": [
+            "Mom"
+          ],
+          "kind": "request"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d05_n043",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d06_n045",
+      "cls": "signal",
+      "objectId": "pref_menitrust",
+      "propositions": [
+        {
+          "text": "Listens to Men I Trust",
+          "conf": 0.7,
+          "entities": [
+            "Men I Trust"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d06_workout_run_sat1",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Long run 14.2 km at 5:42/km on Sat Oct 31",
+          "conf": 0.95,
+          "entities": [
+            "run"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "g_half"
+    },
+    {
+      "eventId": "ev_d06_n048",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d06_a_presale",
+      "cls": "ambiguous",
+      "propositions": [
+        {
+          "text": "Alex Chen bought 2 presale tickets for The Fillmore show",
+          "conf": 0.9,
+          "entities": [
+            "Alex Chen",
+            "The Fillmore",
+            "tickets"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "m_fillmore"
+    },
+    {
+      "eventId": "ev_d06_cal_sunset_dup",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Calendar: Sunset Rollercoaster at The Fillmore on Sat Nov 8 20:00",
+          "conf": 0.95,
+          "entities": [
+            "Sunset Rollercoaster",
+            "The Fillmore"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "m_fillmore",
+      "dateRef": "2026-11-08T20:00:00-08:00"
+    },
+    {
+      "eventId": "ev_d06_jess_doc",
+      "cls": "ambiguous",
+      "propositions": [
+        {
+          "text": "Jess asks for the doc when done",
+          "conf": 0.5,
+          "entities": [
+            "Jess (PM)"
+          ],
+          "kind": "request"
+        }
+      ],
+      "objectId": "m_req_interviews"
+    },
+    {
+      "eventId": "ev_d06_n049",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d06_n046",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Hiatus Kaiyote"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Hiatus Kaiyote",
+          "conf": 0.7,
+          "entities": [
+            "Hiatus Kaiyote"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d06_n050",
+      "cls": "noise",
+      "propositions": [
+        {
+          "text": "Mom: Did you eat?",
+          "conf": 0.7,
+          "entities": [
+            "Mom"
+          ],
+          "kind": "request"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d06_media_k3",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Listens to Sunset Rollercoaster",
+          "conf": 0.7,
+          "entities": [
+            "Sunset Rollercoaster"
+          ],
+          "kind": "habit"
+        }
+      ],
+      "objectId": "pref_sunset"
+    },
+    {
+      "eventId": "ev_d06_n047",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Bonobo"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Bonobo",
+          "conf": 0.7,
+          "entities": [
+            "Bonobo"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d07_package_code_change",
+      "cls": "contradiction",
+      "propositions": [
+        {
+          "text": "Package locker 21 code changed to 118342",
+          "conf": 0.95,
+          "entities": [
+            "locker 21"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "c_package"
+    },
+    {
+      "eventId": "ev_d07_n052",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Thee Sacred Souls"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Thee Sacred Souls",
+          "conf": 0.7,
+          "entities": [
+            "Thee Sacred Souls"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d07_n051",
+      "cls": "signal",
+      "objectId": "pref_menitrust",
+      "propositions": [
+        {
+          "text": "Listens to Men I Trust",
+          "conf": 0.7,
+          "entities": [
+            "Men I Trust"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d07_world_greek_added",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Sunset Rollercoaster plays The Greek Theatre in Berkeley on Sun Nov 15",
+          "conf": 0.9,
+          "entities": [
+            "Sunset Rollercoaster",
+            "The Greek Theatre",
+            "Berkeley"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "m_greek",
+      "dateRef": "2026-11-15T19:30:00-08:00"
+    },
+    {
+      "eventId": "ev_d07_n054",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d07_n057",
+      "cls": "noise",
+      "propositions": [
+        {
+          "text": "Mom: Happy Sunday ☀️",
+          "conf": 0.7,
+          "entities": [
+            "Mom"
+          ],
+          "kind": "request"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d07_n056",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d07_n055",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d07_coach_pacing",
+      "cls": "ambiguous",
+      "propositions": [
+        {
+          "text": "Coach sends a race pacing plan: 5:35/km for the first 10 km",
+          "conf": 0.9,
+          "entities": [
+            "Marcus (Coach)",
+            "half marathon",
+            "pacing plan"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "m_half"
+    },
+    {
+      "eventId": "ev_d07_n053",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d08_n063",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Design review"
+      ],
+      "propositions": [
+        {
+          "text": "Calendar: Design review",
+          "conf": 0.8,
+          "entities": [
+            "Design review"
+          ],
+          "kind": "fact"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d08_n061",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d08_n060",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d08_n059",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Hiatus Kaiyote"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Hiatus Kaiyote",
+          "conf": 0.7,
+          "entities": [
+            "Hiatus Kaiyote"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d08_pm_interviews_2",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Two user interviews done; third moved to Friday",
+          "conf": 0.9,
+          "entities": [
+            "Jess (PM)",
+            "user interviews"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "m_req_interviews"
+    },
+    {
+      "eventId": "ev_d08_n062",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d08_n064",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d08_n065",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d08_n058",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Tame Impala"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Tame Impala",
+          "conf": 0.7,
+          "entities": [
+            "Tame Impala"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d08_b_meet",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Ben Park proposes meeting at Downtown Berkeley BART at 18:00 before the show",
+          "conf": 0.85,
+          "entities": [
+            "Ben Park",
+            "Berkeley",
+            "BART"
+          ],
+          "kind": "request"
+        }
+      ],
+      "objectId": "m_greek",
+      "triple": {
+        "correctionKey": "b_to_greek",
+        "role": "in-scope"
+      }
+    },
+    {
+      "eventId": "ev_d08_mom_training",
+      "cls": "ambiguous",
+      "propositions": [
+        {
+          "text": "Mom asks about marathon training",
+          "conf": 0.6,
+          "entities": [
+            "Mom",
+            "marathon"
+          ],
+          "kind": "request"
+        }
+      ],
+      "objectId": "g_half"
+    },
+    {
+      "eventId": "ev_d09_n072",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Therapy"
+      ],
+      "propositions": [
+        {
+          "text": "Calendar: Therapy",
+          "conf": 0.8,
+          "entities": [
+            "Therapy"
+          ],
+          "kind": "fact"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d09_n068",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Durand Jones"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Durand Jones",
+          "conf": 0.7,
+          "entities": [
+            "Durand Jones"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d09_n066",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Hiatus Kaiyote"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Hiatus Kaiyote",
+          "conf": 0.7,
+          "entities": [
+            "Hiatus Kaiyote"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d09_a_reschedule",
+      "cls": "contradiction",
+      "propositions": [
+        {
+          "text": "The Fillmore show is rescheduled to Sun Nov 9, same time",
+          "conf": 0.9,
+          "entities": [
+            "The Fillmore",
+            "Alex Chen"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "m_fillmore",
+      "dateRef": "2026-11-09T20:00:00-08:00",
+      "worldState": "rescheduled",
+      "triple": {
+        "correctionKey": "b_to_greek",
+        "role": "out-of-scope"
+      }
+    },
+    {
+      "eventId": "ev_d09_coach_tue_time",
+      "cls": "contradiction",
+      "propositions": [
+        {
+          "text": "Boxing class on Tue Nov 3 moved to 19:30",
+          "conf": 0.9,
+          "entities": [
+            "Marcus (Coach)",
+            "Boxing"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "a_boxing",
+      "dateRef": "2026-11-03T19:30:00-08:00",
+      "worldState": "rescheduled"
+    },
+    {
+      "eventId": "ev_d09_b_run",
+      "cls": "ambiguous",
+      "propositions": [
+        {
+          "text": "Ben Park proposes a run on Sunday morning at Kezar",
+          "conf": 0.7,
+          "entities": [
+            "Ben Park",
+            "Kezar"
+          ],
+          "kind": "request"
+        }
+      ],
+      "dateRef": "2026-11-08T08:00:00-08:00",
+      "triple": {
+        "correctionKey": "b_to_greek",
+        "role": "out-of-scope"
+      }
+    },
+    {
+      "eventId": "ev_d09_n071",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d09_n070",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d09_lazy_mention",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Jess asks to scope the Lazy feature when there is time",
+          "conf": 0.8,
+          "entities": [
+            "Jess (PM)",
+            "Lazy"
+          ],
+          "kind": "request"
+        }
+      ],
+      "objectId": "m_req_lazy"
+    },
+    {
+      "eventId": "ev_d09_n074",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d09_n067",
+      "cls": "signal",
+      "objectId": "pref_menitrust",
+      "propositions": [
+        {
+          "text": "Listens to Men I Trust",
+          "conf": 0.7,
+          "entities": [
+            "Men I Trust"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d09_n069",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d09_n073",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d09_unknown_runclub",
+      "cls": "ambiguous",
+      "propositions": [
+        {
+          "text": "Unknown number invites to run club Thursday 6:30 at Kezar",
+          "conf": 0.6,
+          "entities": [
+            "run club",
+            "Kezar"
+          ],
+          "kind": "request"
+        }
+      ],
+      "dateRef": "2026-11-05T06:30:00-08:00"
+    },
+    {
+      "eventId": "ev_d10_n079",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Haircut"
+      ],
+      "propositions": [
+        {
+          "text": "Calendar: Haircut",
+          "conf": 0.8,
+          "entities": [
+            "Haircut"
+          ],
+          "kind": "fact"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d10_world_bart_schedule",
+      "cls": "contradiction",
+      "propositions": [
+        {
+          "text": "BART evening Yellow line from Montgomery: the 18:42 now departs 18:48",
+          "conf": 0.9,
+          "entities": [
+            "BART",
+            "Montgomery"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "a_commute"
+    },
+    {
+      "eventId": "ev_d10_n078",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d10_n077",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d10_n076",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Tame Impala"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Tame Impala",
+          "conf": 0.7,
+          "entities": [
+            "Tame Impala"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d10_design_form_2",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Sam chose direction B for the product form; prototype posted",
+          "conf": 0.9,
+          "entities": [
+            "Sam Rivera",
+            "product form"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "m_req_form"
+    },
+    {
+      "eventId": "ev_d10_n080",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d10_coach_raceday",
+      "cls": "ambiguous",
+      "propositions": [
+        {
+          "text": "Coach: race day logistics next week; bib pickup the Saturday before",
+          "conf": 0.8,
+          "entities": [
+            "Marcus (Coach)",
+            "race",
+            "bib"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "m_half"
+    },
+    {
+      "eventId": "ev_d10_n075",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Durand Jones"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Durand Jones",
+          "conf": 0.7,
+          "entities": [
+            "Durand Jones"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d10_a_setlist",
+      "cls": "ambiguous",
+      "propositions": [
+        {
+          "text": "Alex Chen shares the setlist from a recent Sunset Rollercoaster show in LA",
+          "conf": 0.6,
+          "entities": [
+            "Alex Chen",
+            "setlist"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "pref_sunset",
+      "acceptable": [
+        "m_fillmore"
+      ]
+    },
+    {
+      "eventId": "ev_d11_cal_boxing_thu2",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Boxing class Thu Nov 5 19:00 at 3rd Street Gym",
+          "conf": 0.9,
+          "entities": [
+            "Boxing",
+            "3rd Street Gym"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "a_boxing",
+      "dateRef": "2026-11-05T19:00:00-08:00"
+    },
+    {
+      "eventId": "ev_d11_cal_dentist_moved",
+      "cls": "contradiction",
+      "propositions": [
+        {
+          "text": "Calendar: Dentist moved to Tue Nov 10 15:00",
+          "conf": 0.8,
+          "entities": [
+            "Dentist"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "dateRef": "2026-11-10T15:00:00-08:00"
+    },
+    {
+      "eventId": "ev_d11_n087",
+      "cls": "noise",
+      "acceptableNamed": [
+        "All-hands"
+      ],
+      "propositions": [
+        {
+          "text": "Calendar: All-hands",
+          "conf": 0.8,
+          "entities": [
+            "All-hands"
+          ],
+          "kind": "fact"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d11_n084",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d11_n089",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d11_n086",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d11_coach_cancel",
+      "cls": "contradiction",
+      "propositions": [
+        {
+          "text": "Boxing class on Thu Nov 5 is cancelled (gym closed)",
+          "conf": 0.95,
+          "entities": [
+            "Marcus (Coach)",
+            "Boxing"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "a_boxing",
+      "dateRef": "2026-11-05T19:00:00-08:00",
+      "worldState": "cancelled",
+      "triple": {
+        "correctionKey": "pacing_to_half",
+        "role": "out-of-scope"
+      }
+    },
+    {
+      "eventId": "ev_d11_n082",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Bonobo"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Bonobo",
+          "conf": 0.7,
+          "entities": [
+            "Bonobo"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d11_n083",
+      "cls": "signal",
+      "objectId": "pref_menitrust",
+      "propositions": [
+        {
+          "text": "Listens to Men I Trust",
+          "conf": 0.7,
+          "entities": [
+            "Men I Trust"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d11_unknown_extra",
+      "cls": "ambiguous",
+      "propositions": [
+        {
+          "text": "Dana asks which Sunset Rollercoaster night the user is going to",
+          "conf": 0.6,
+          "entities": [
+            "Sunset Rollercoaster",
+            "Dana"
+          ],
+          "kind": "request"
+        }
+      ],
+      "triple": {
+        "correctionKey": "b_to_greek",
+        "role": "ambiguous"
+      }
+    },
+    {
+      "eventId": "ev_d11_n088",
+      "cls": "noise",
+      "propositions": [
+        {
+          "text": "Mom: Did you eat?",
+          "conf": 0.7,
+          "entities": [
+            "Mom"
+          ],
+          "kind": "request"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d11_n081",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Hiatus Kaiyote"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Hiatus Kaiyote",
+          "conf": 0.7,
+          "entities": [
+            "Hiatus Kaiyote"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d11_n085",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d12_n092",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Therapy"
+      ],
+      "propositions": [
+        {
+          "text": "Calendar: Therapy",
+          "conf": 0.8,
+          "entities": [
+            "Therapy"
+          ],
+          "kind": "fact"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d12_n094",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d12_coach_pacing_v2",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Coach sends an updated pacing plan with a faster first 5 km",
+          "conf": 0.9,
+          "entities": [
+            "Marcus (Coach)",
+            "pacing plan"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "m_half",
+      "triple": {
+        "correctionKey": "pacing_to_half",
+        "role": "in-scope"
+      }
+    },
+    {
+      "eventId": "ev_d12_sam_feedback",
+      "cls": "ambiguous",
+      "propositions": [
+        {
+          "text": "Sam asks for feedback on the prototype",
+          "conf": 0.6,
+          "entities": [
+            "Sam Rivera",
+            "prototype"
+          ],
+          "kind": "request"
+        }
+      ],
+      "objectId": "m_req_form"
+    },
+    {
+      "eventId": "ev_d12_n090",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Thee Sacred Souls"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Thee Sacred Souls",
+          "conf": 0.7,
+          "entities": [
+            "Thee Sacred Souls"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d12_n093",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d12_n091",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d12_b_late",
+      "cls": "ambiguous",
+      "propositions": [
+        {
+          "text": "Ben Park is running late",
+          "conf": 0.5,
+          "entities": [
+            "Ben Park"
+          ],
+          "kind": "fact"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d13_n097",
+      "cls": "noise",
+      "propositions": []
+    },
+    {
+      "eventId": "ev_d13_workout_run_sat2",
+      "cls": "signal",
+      "propositions": [
+        {
+          "text": "Long run 16.1 km at 5:36/km on Sat Nov 7",
+          "conf": 0.95,
+          "entities": [
+            "run"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "objectId": "g_half"
+    },
+    {
+      "eventId": "ev_d13_coach_greatwork",
+      "cls": "ambiguous",
+      "propositions": [
+        {
+          "text": "Coach praises this week’s work",
+          "conf": 0.5,
+          "entities": [
+            "Marcus (Coach)"
+          ],
+          "kind": "fact"
+        }
+      ],
+      "triple": {
+        "correctionKey": "pacing_to_half",
+        "role": "ambiguous"
+      }
+    },
+    {
+      "eventId": "ev_d13_n095",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Bonobo"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Bonobo",
+          "conf": 0.7,
+          "entities": [
+            "Bonobo"
+          ],
+          "kind": "habit"
+        }
+      ]
+    },
+    {
+      "eventId": "ev_d13_n096",
+      "cls": "noise",
+      "acceptableNamed": [
+        "Bonobo"
+      ],
+      "propositions": [
+        {
+          "text": "Listens to Bonobo",
+          "conf": 0.7,
+          "entities": [
+            "Bonobo"
+          ],
+          "kind": "habit"
+        }
+      ]
+    }
+  ],
+  "expectations": [
+    {
+      "date": "2026-10-27T17:00",
+      "context": "commute",
+      "shouldSurface": [
+        {
+          "objectId": "a_boxing",
+          "why": "class tonight; coach asked to bring wraps"
+        }
+      ],
+      "shouldStaySilent": []
+    },
+    {
+      "date": "2026-10-29T20:00",
+      "context": "home",
+      "shouldSurface": [
+        {
+          "objectId": "m_fillmore",
+          "why": "tickets on sale tomorrow 10:00"
+        }
+      ],
+      "shouldStaySilent": []
+    },
+    {
+      "date": "2026-10-29T11:00",
+      "context": "meeting",
+      "shouldSurface": [],
+      "shouldStaySilent": [
+        {
+          "objectId": "m_fillmore",
+          "reason": "bad-context"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03T11:00",
+      "context": "desk",
+      "shouldSurface": [
+        {
+          "objectId": "m_fillmore",
+          "why": "show rescheduled to Nov 9 — must interrupt"
+        }
+      ],
+      "shouldStaySilent": []
+    },
+    {
+      "date": "2026-11-05T15:00",
+      "context": "desk",
+      "shouldSurface": [
+        {
+          "objectId": "a_boxing",
+          "why": "class tonight cancelled — must interrupt"
+        }
+      ],
+      "shouldStaySilent": []
+    }
+  ],
+  "corrections": [
+    {
+      "key": "b_to_greek",
+      "eventId": "ev_d05_b_tickets",
+      "fromObjectId": "m_fillmore",
+      "toObjectId": "m_greek",
+      "scope": "relation",
+      "predicate": {
+        "sender": "Ben Park"
+      },
+      "evidence": "sender = Ben Park"
+    },
+    {
+      "key": "pacing_to_half",
+      "eventId": "ev_d07_coach_pacing",
+      "fromObjectId": "a_boxing",
+      "toObjectId": "m_half",
+      "scope": "rule",
+      "predicate": {
+        "entity": "pacing plan"
+      },
+      "evidence": "entity = pacing plan"
+    }
+  ]
+}

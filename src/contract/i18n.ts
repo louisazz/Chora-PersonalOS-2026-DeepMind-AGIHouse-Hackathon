@@ -1,0 +1,111 @@
+/** UI strings. Persona content (names, bands, venues) never lives here. */
+import type { ContextId, DomainId, EmptyKind, ObjectType, RelationType, Scope, SilenceReason, WorldState } from './types';
+
+export type Lang = 'en';
+
+const dict = {
+  en: {
+    life: 'Life',
+    work: 'Work',
+    now: 'Right now',
+    myLife: 'My life',
+    suggestedAction: 'Suggested action',
+    from: 'From',
+    requirements: 'Requirements',
+    todos: 'To-dos',
+    relatedConversations: (n: number) => `${n} related conversation${n === 1 ? '' : 's'}`,
+    newMessageAbout: (n: number, about: string) => `${n} new message${n === 1 ? '' : 's'} about ${about}`,
+    userModel: 'What PersonOS believes',
+    rationale: 'Why this',
+    perf: 'On-device',
+    replay: 'Replay',
+    reset: 'Reset',
+    feed: 'Feed an event',
+    send: 'Send',
+    moveTo: 'Move to another matter',
+    newMatter: 'New matter…',
+    confirmScope: (who: string, to: string) => `From now on, route ${who}'s messages to ${to}?`,
+    yes: 'Yes',
+    onlyThis: 'Only this one',
+    askUser: 'Which one is this about?',
+    deleted: 'Deleted',
+    freeze: 'Freeze',
+    unfreeze: 'Unfreeze',
+    delete: 'Delete',
+    less: 'Less',
+    more: 'More',
+    compare: 'Compare',
+    compareModes: { stream: 'Time stream', fixed: 'Fixed layout', adaptive: 'Adaptive' } as Record<string, string>,
+    context: 'Context',
+    contexts: {
+      home: 'Home',
+      commute: 'Commute',
+      desk: 'Desk',
+      meeting: 'In a meeting',
+      gym: 'Gym',
+      night: 'Late night',
+    } as Record<ContextId, string>,
+    domains: {
+      study: 'Study',
+      fitness: 'Fitness',
+      travel: 'Travel',
+      health: 'Health',
+      work: 'Work',
+      games: 'Games',
+      finance: 'Finance',
+      music: 'Music',
+      family: 'Family',
+    } as Record<DomainId, string>,
+    objectTypes: {
+      person: 'Person',
+      activity: 'Activity',
+      goal: 'Goal',
+      preference: 'Preference',
+      experience: 'Experience',
+      item: 'Item',
+      commitment: 'Commitment',
+      matter: 'Matter',
+    } as Record<ObjectType, string>,
+    relations: {
+      'part-of': 'part of',
+      'plays-role': 'plays a role in',
+      'in-state': 'is in state',
+      'refers-to': 'refers to',
+      'evidence-for': 'is evidence for',
+      'applies-to': 'applies to',
+    } as Record<RelationType, string>,
+    worldStates: {
+      scheduled: 'Scheduled',
+      happening: 'Happening',
+      past: 'Past',
+      cancelled: 'Cancelled',
+      rescheduled: 'Rescheduled',
+    } as Record<WorldState, string>,
+    scopes: {
+      instance: 'Only this message',
+      relation: 'Everything from this sender',
+      rule: 'Everything about this entity',
+    } as Record<Scope, string>,
+    silence: {
+      'nothing-worth-saying': 'Nothing worth saying',
+      budget: 'Held back by the change budget',
+      'low-conf': 'Not confident enough',
+      'bad-context': 'Not the right moment',
+      'no-permission': 'No permission to see the relevant data',
+    } as Record<SilenceReason, string>,
+    empty: {
+      'truly-empty': 'Nothing here yet',
+      'no-match': 'Nothing matched',
+      loading: 'Loading',
+      unavailable: 'Temporarily unavailable',
+      'not-applicable': 'Not applicable here',
+      'no-permission': 'No permission',
+      unknown: 'Unknown',
+    } as Record<EmptyKind, string>,
+  },
+};
+
+export type Dict = typeof dict.en;
+export function t(lang: Lang): Dict {
+  return dict[lang] as Dict;
+}

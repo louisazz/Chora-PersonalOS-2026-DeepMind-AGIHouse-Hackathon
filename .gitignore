@@ -1,0 +1,9 @@
+node_modules
+dist
+models
+public/ort
+public/litert-lm-wasm
+eval-out
+shots
+*.log
+.DS_Store
