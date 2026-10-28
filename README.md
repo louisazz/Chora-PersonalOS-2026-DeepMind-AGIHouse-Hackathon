@@ -1,9 +1,14 @@
-# Chora PersonalOS
+[Explore the prototype](https://chora-quiet-os.louisazhang22.chatgpt.site)
+
+# Personal Agentic OS
+
+Chora explores how a personal OS can build an editable user model—understanding people's ongoing activities, relationships, preferences and ways of working—and organize information and capabilities around their lives.
+It also explores UI/UX-level recursive self-improvement (RSI): using context and interaction feedback to evaluate and refine interfaces over time, while preserving familiar navigation and user control.
 
 An on-device personal OS home screen, built at the Google DeepMind × AGI House Gemma Hackathon.
 The phone's home screen is a projection of a life graph: people, activities, matters, preferences and their typed relations.
-On-device Gemma models file every incoming message, calendar entry and listening record into the right matter.
-One correction generalizes exactly as far as it should, and the learned user model can be edited.
+On-device Gemma models connect incoming messages, calendar entries and listening records to the relevant matters.
+Corrections are designed to generalize only to relevant contexts, and users can inspect and edit what the system learns about them.
 
 ## What it does
 
