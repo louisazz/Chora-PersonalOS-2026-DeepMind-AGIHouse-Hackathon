@@ -1,6 +1,6 @@
 # Chora PersonalOS
 
-An on-device personal OS home screen, built at the Google DeepMind × AGI House Gemma Hardware Hackathon (Oct 24, 2026).
+An on-device personal OS home screen, built at the Google DeepMind × AGI House Gemma Hackathon.
 The phone's home screen is a projection of a life graph: people, activities, matters, preferences and their typed relations.
 On-device Gemma models file every incoming message, calendar entry and listening record into the right matter.
 One correction generalizes exactly as far as it should, and the learned user model can be edited.
